@@ -1037,10 +1037,10 @@
   dependencies:
     "@tryghost/errors" "^0.2.13"
 
-"@tryghost/social-urls@0.1.26":
-  version "0.1.26"
-  resolved "https://registry.yarnpkg.com/@tryghost/social-urls/-/social-urls-0.1.26.tgz#dfacc38cf187d9f6733155e6408329ef54210c72"
-  integrity sha512-gwh8W2tlaaKwxrQSNvvnJTUUOVyDQQ4DR+ukEgVBwKbU5m7BePACf/0iuLY3PZ3mvZyzaQ3Jc3IWQHd/FDglPA==
+"@tryghost/social-urls@0.1.36":
+  version "0.1.36"
+  resolved "https://registry.yarnpkg.com/@tryghost/social-urls/-/social-urls-0.1.36.tgz#1ab1e083d439c45b6df43e32adf045738c606158"
+  integrity sha512-Xg9wljbS7HrsWyK/VBVUbYnmTX7Mc8gF6ix+UlIbbtqk4jUdCxF2w76bZc9Ff+SiE6DQtuT5m6HmSeR1YGKLYg==
 
 "@tryghost/string@0.1.20", "@tryghost/string@^0.1.17":
   version "0.1.20"
