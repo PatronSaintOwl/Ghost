@@ -59,7 +59,7 @@
     "@tryghost/constants": "0.1.8",
     "@tryghost/debug": "0.1.4",
     "@tryghost/email-analytics-provider-mailgun": "1.0.0",
-    "@tryghost/email-analytics-service": "1.0.0",
+    "@tryghost/email-analytics-service": "1.0.7",
     "@tryghost/errors": "0.2.13",
     "@tryghost/helpers": "1.1.51",
     "@tryghost/image-transform": "1.0.13",
