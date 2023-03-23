@@ -281,13 +281,14 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@lodder/grunt-postcss@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@lodder/grunt-postcss/-/grunt-postcss-3.0.1.tgz#38724fa80de5605419049113b9564782a7bbf7c6"
-  integrity sha512-boAIrpGJQYxiZ/qI7BRhxNHzNsv6kPlqRpr4XhnTHNjf2RYAqDTL5CMRUcExv8crVduKkhOSSr+pnIQrI3pwYg==
+"@lodder/grunt-postcss@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@lodder/grunt-postcss/-/grunt-postcss-3.1.1.tgz#68d658c25fc97f2ad1306a4f33c02dd622c9733b"
+  integrity sha512-dgkDAUgjtCCCk7jsIBkDMhcL78y2reQ9YxqBpVJGa/0tX1Eus7GRWEn0QWqfFiHqqc3yrMQN+GtH8PUIZOBmDQ==
   dependencies:
     diff "^5.0.0"
     maxmin "^3.0.0"
+    picocolors "^1.0.0"
 
 "@metascraper/helpers@^5.24.2":
   version "5.24.2"
@@ -7901,6 +7902,11 @@ pg-connection-string@2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/pg-connection-string/-/pg-connection-string-2.4.0.tgz#c979922eb47832999a204da5dbe1ebf2341b6a10"
   integrity sha512-3iBXuv7XKvxeMrIgym7njT+HlZkwZqqGX4Bu9cci8xHZNT+Um1gWKqCsAzcC0d95rcKMU5WBg6YRUcHyV0HZKQ==
+
+picocolors@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
+  integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
 
 picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   version "2.3.0"
