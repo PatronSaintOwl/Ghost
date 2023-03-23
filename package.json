@@ -55,7 +55,7 @@
     "@tryghost/bookshelf-plugins": "0.3.0",
     "@tryghost/bootstrap-socket": "0.2.9",
     "@tryghost/color-utils": "0.1.1",
-    "@tryghost/config-url-helpers": "0.1.0",
+    "@tryghost/config-url-helpers": "1.0.6",
     "@tryghost/constants": "0.1.8",
     "@tryghost/debug": "0.1.4",
     "@tryghost/email-analytics-provider-mailgun": "1.0.0",
