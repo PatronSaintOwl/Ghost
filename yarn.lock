@@ -757,10 +757,18 @@
     ghost-ignition "^4.2.4"
     lodash "^4.17.20"
 
-"@tryghost/errors@0.2.13", "@tryghost/errors@^0.2.10", "@tryghost/errors@^0.2.11", "@tryghost/errors@^0.2.12", "@tryghost/errors@^0.2.13", "@tryghost/errors@^0.2.9":
+"@tryghost/errors@0.2.13":
   version "0.2.13"
   resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-0.2.13.tgz#819550c347f5634706b5a4834dd2db0e7cb0a6f2"
   integrity sha512-RXREWxDy69LC5t8sW6UuSnUNED1ZT9wKTNCJ2VDdrdS1CTaxmZroaWoKOrGjrQDx/M2IBHJSNZHbnRtkHoJ4hw==
+  dependencies:
+    "@tryghost/ignition-errors" "^0.1.0"
+    lodash "^4.17.21"
+
+"@tryghost/errors@^0.2.10", "@tryghost/errors@^0.2.11", "@tryghost/errors@^0.2.12", "@tryghost/errors@^0.2.13", "@tryghost/errors@^0.2.17", "@tryghost/errors@^0.2.9":
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-0.2.17.tgz#9b89f3845256ace5650593f41cc86d64965b56ed"
+  integrity sha512-Mj+bedWOwfooNA8fQdp6gIcRvWcKhJ/hOyGzu6OLFDLgEosFEeuFgXE6SsAWkf9+9NTYX30w88qGIWZqOhEAmQ==
   dependencies:
     "@tryghost/ignition-errors" "^0.1.0"
     lodash "^4.17.21"
@@ -864,11 +872,12 @@
   dependencies:
     "@tryghost/kg-clean-basic-html" "^1.0.18"
 
-"@tryghost/limit-service@0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@tryghost/limit-service/-/limit-service-0.6.1.tgz#192a5cfcb2e9d6c335e3340ef4fcb3a1ecc23a4b"
-  integrity sha512-EQyhAPXczcqpuSMpXCC9YQZ5z3aCfO4N4fT8GbZnECausf4lWH64mbUQxptlj40iDyguX4YbrJvTmCfbpCA/lA==
+"@tryghost/limit-service@0.6.5":
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/@tryghost/limit-service/-/limit-service-0.6.5.tgz#59c98edd697828837bf0133acf6ab612a19d7848"
+  integrity sha512-OuCe4oXE9h8zlJV9YdhLbnZXv+JtNEAyg60q6DCoOMwTistHlMaNx7FLxKaOzNsSSOSY5Nz+V1Bm/7/ed7WFXg==
   dependencies:
+    "@tryghost/errors" "^0.2.17"
     lodash "^4.17.21"
     luxon "^1.26.0"
 
