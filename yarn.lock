@@ -962,10 +962,10 @@
     mobiledoc-dom-renderer "0.7.0"
     mobiledoc-text-renderer "0.4.0"
 
-"@tryghost/mw-session-from-token@0.1.22":
-  version "0.1.22"
-  resolved "https://registry.yarnpkg.com/@tryghost/mw-session-from-token/-/mw-session-from-token-0.1.22.tgz#eb060cca7c80e87b96a6b6f2e6e68a2660f2b36e"
-  integrity sha512-9emJs6b+3/YLE2jlZ8+gZRmtTohUMS6d4lX9Gw/u3eABbGcoYOsaxc2/kqD6+xdizsFHQ93Qp7Jkw5knfI7XLA==
+"@tryghost/mw-session-from-token@0.1.34":
+  version "0.1.34"
+  resolved "https://registry.yarnpkg.com/@tryghost/mw-session-from-token/-/mw-session-from-token-0.1.34.tgz#9e4527801943b63b02db2619eb81e25dae7c7db2"
+  integrity sha512-ARQmnepZF/vpU7yYI/u9e9ltKK6Lr1G3VonNym6hvbw/mN2xiRmhiHrYpUzMKaQq/t+wAkf1JMmUJvGMXaiUjw==
 
 "@tryghost/package-json@1.0.2":
   version "1.0.2"
