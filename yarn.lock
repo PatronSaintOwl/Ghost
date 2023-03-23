@@ -725,12 +725,20 @@
   resolved "https://registry.yarnpkg.com/@tryghost/constants/-/constants-0.1.8.tgz#b08074cdc6f8a379209750e60c2ab62c8ba895cf"
   integrity sha512-3/w0k2JlpYjG/3tU3zjvVlrNH+kK9bjZvp7xaCkvmbsLGxQFMtlKU4fFY+rcpDVWOkywIHmKbLGmAqADgZeakA==
 
-"@tryghost/debug@0.1.4", "@tryghost/debug@^0.1.2", "@tryghost/debug@^0.1.4":
+"@tryghost/debug@0.1.4":
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/@tryghost/debug/-/debug-0.1.4.tgz#9a290573cf41f60516a140dd7de79ad2ffe44b78"
   integrity sha512-/GtRqcaQsEUpyr8DKpM9jgI5VtTxZNcj+MrYjTIf1WTuZcwzBHDYl7aO0x6bqJFPr23Ubphx9SmRLLfIjBJXBw==
   dependencies:
     "@tryghost/root-utils" "^0.3.3"
+    debug "^4.3.1"
+
+"@tryghost/debug@^0.1.2", "@tryghost/debug@^0.1.4", "@tryghost/debug@^0.1.9":
+  version "0.1.22"
+  resolved "https://registry.yarnpkg.com/@tryghost/debug/-/debug-0.1.22.tgz#a80fa29c991d2900f29cb46e2afa952e4d8275bc"
+  integrity sha512-MoxooDwcPm4wcY5mbGgELw7mQn41hKAVNr4EmxzmYY/8D5sRpZztX3ekgznKm2IUAjrHYJdqK1doyOMgk3N9uw==
+  dependencies:
+    "@tryghost/root-utils" "^0.3.20"
     debug "^4.3.1"
 
 "@tryghost/elasticsearch-bunyan@0.1.1", "@tryghost/elasticsearch-bunyan@^0.1.1":
@@ -749,12 +757,12 @@
     mailgun-js "^0.22.0"
     moment "^2.29.1"
 
-"@tryghost/email-analytics-service@1.0.0", "@tryghost/email-analytics-service@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@tryghost/email-analytics-service/-/email-analytics-service-1.0.0.tgz#61fb087754ccdda84e8a4a3607149b315a950111"
-  integrity sha512-KQ+DSGpAFaZ+Dm4xtIObihNRopytrdCGjkUZhoqB3/feXV3MDVaAToujbpbjVM3PGiIu3eY+2NsfMhStDIgFCQ==
+"@tryghost/email-analytics-service@1.0.7", "@tryghost/email-analytics-service@^1.0.0":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@tryghost/email-analytics-service/-/email-analytics-service-1.0.7.tgz#49bfe404aa74319353e04405821a4e301b4316cf"
+  integrity sha512-cHVHiiwtWkTBBV05QSYSbcoKI+BB+N4qDSRWuhXImdhXJZhgf51g+ufj/njDYMQ5ELLfX85hYcET2BbBKur6kw==
   dependencies:
-    ghost-ignition "^4.2.4"
+    "@tryghost/debug" "^0.1.9"
     lodash "^4.17.20"
 
 "@tryghost/errors@0.2.13", "@tryghost/errors@^0.2.10", "@tryghost/errors@^0.2.11", "@tryghost/errors@^0.2.12", "@tryghost/errors@^0.2.13", "@tryghost/errors@^0.2.9":
@@ -1004,7 +1012,7 @@
     got "9.6.0"
     lodash "^4.17.21"
 
-"@tryghost/root-utils@0.3.3", "@tryghost/root-utils@^0.3.3":
+"@tryghost/root-utils@0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@tryghost/root-utils/-/root-utils-0.3.3.tgz#0a3b228987df16dd9a2931498707e6c2438c99a2"
   integrity sha512-oCYJ0W9BQQgu+CqxG1mN5BK9TNYLse9c9JjBMiiRCgMQwZH7yBVj/8MdnkdMx0sBM3VFwhk6cI3LPo251ZVzBA==
@@ -1016,6 +1024,14 @@
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@tryghost/root-utils/-/root-utils-0.1.0.tgz#7578cb5e57953316fef58edd43a152a86b719a8f"
   integrity sha512-zy3PSviwytjvjdMso86RYZLE2I4e2yL/s83fIEf/g17C8V8hsCcgE83cFOpCw3ISWDFX3Qi0IX9kI3or2pfGLg==
+  dependencies:
+    caller "^1.0.1"
+    find-root "^1.1.0"
+
+"@tryghost/root-utils@^0.3.20", "@tryghost/root-utils@^0.3.3":
+  version "0.3.20"
+  resolved "https://registry.yarnpkg.com/@tryghost/root-utils/-/root-utils-0.3.20.tgz#4d4ed9189932cb189046f4357b6eb9ff57857850"
+  integrity sha512-Uyx6Xf/ACKAiGLCpsn463TP+/mGZ93MskCFQC8ccTMXP9y5N70AY/tRG9MBreNo5CmN+sVKLQPwYIOG7cnXb+w==
   dependencies:
     caller "^1.0.1"
     find-root "^1.1.0"
@@ -4445,7 +4461,7 @@ ghost-ignition@4.6.2:
     prettyjson "1.2.1"
     uuid "8.3.2"
 
-ghost-ignition@4.6.3, ghost-ignition@^4.2.4:
+ghost-ignition@4.6.3:
   version "4.6.3"
   resolved "https://registry.yarnpkg.com/ghost-ignition/-/ghost-ignition-4.6.3.tgz#eea33bbd84e4e26096f9b7c8838f972acdab7533"
   integrity sha512-F9Kms91NG7miRH8FdmvHvWGt9crVHaKYap3gFrGekCi0TTpssN6duGi0NERSqAcf+7gC7QXT3BP/yCWwBr3fqw==
